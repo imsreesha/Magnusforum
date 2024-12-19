@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="icon" sizes="16x16" href="images/favicon.png">
+    <link rel="icon" sizes="16x16" href="{% static 'image/favicon.png' %}">
 
     <!-- inject:css -->
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
@@ -75,7 +75,7 @@
             <div class="card-body row p-0">
                 <div class="col-lg-6">
                     <div class="form-content py-4 pr-60px pl-60px border-right border-right-gray h-100 d-flex align-items-center justify-content-center">
-                        <img src="images/undraw-remotely.svg" alt="Image" class="img-fluid">
+                        <img src="{% static 'image/undraw-remotely.svg'%}" alt="Image" class="img-fluid">
                     </div>
                 </div><!-- end col-lg-6 -->
                 <div class="col-lg-5 mx-auto">
@@ -130,8 +130,8 @@
 ======================================-->
 
 <!-- template js files -->
-<script src="js/jquery-3.7.1.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/main.js"></script>
+<script src="{% static 'js/jquery-3.7.1.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'js/main.js' %}"></script>
 </body>
 </html>

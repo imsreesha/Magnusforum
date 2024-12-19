@@ -140,9 +140,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # Optional: if you're serving static files from different locations during development
-STATICFILES_DIRS = [
-    BASE_DIR / "static",  # or the path where your 'static' folder is located
-]
+STATICFILES_ROOT = '/static'
 
 
 # Default primary key field type
