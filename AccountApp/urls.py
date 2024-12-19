@@ -5,7 +5,9 @@ from AccountApp import views
 
 
 urlpatterns = [
-    path('',views.login),
-    path('k',views.hi),
+    path('',views.login,name='login'),
+    path('signup/',views.signup,name='signup'),
+    path('userprofile/',views.userprofile),
+    path('userlist/',views.userlist)
     
 ]

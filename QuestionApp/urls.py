@@ -3,5 +3,6 @@ from QuestionApp import views
 
 
 urlpatterns = [
+    path('',views.askquestion)
     
 ]
